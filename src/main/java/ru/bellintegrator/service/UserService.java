@@ -23,4 +23,8 @@ public class UserService implements UserDetailsService {
     public Iterable<User> findAll(){
         return userRepo.findAll();
     }
+
+    public void save(User user){
+        userRepo.save(user);
+    }
 }

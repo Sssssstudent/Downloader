@@ -3,7 +3,7 @@
 <@c.page>
     Authorization page
 
-    ${message}
+    ${message!}
 
     <@l.login "/registration" />
 </@c.page>

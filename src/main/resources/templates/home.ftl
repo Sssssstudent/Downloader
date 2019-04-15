@@ -3,6 +3,7 @@
 <@c.page>
     <div>
         <@l.logout />
+        <span><a href="/user">User list</a></span>
     </div>
     <div>
         <form method="post">
@@ -14,7 +15,7 @@
     </div>
     <div>
         <form method="get" action="/home">
-            <input type="text" name="filter" value="${filter}">
+            <input type="text" name="filter" >
             <button type="submit">Найти</button>
         </form>
     </div>
